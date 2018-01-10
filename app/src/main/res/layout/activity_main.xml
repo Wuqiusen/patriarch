@@ -8,12 +8,14 @@
     tools:context="com.huson.patriarch.MainActivity">
 
     <ImageView
+        android:id="@+id/img_main"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:background="@color/main_img"/>
 
     <LinearLayout
+        android:id="@+id/ll_map"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -31,6 +33,7 @@
         android:layout_weight="1"
         android:orientation="horizontal">
         <LinearLayout
+            android:id="@+id/ll_leave"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -44,6 +47,7 @@
 
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/ll_video"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
